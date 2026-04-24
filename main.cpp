@@ -3,7 +3,7 @@
 // The OJ will include and test the CrossArray class from the header named "code".
 // To align with the repository rules, we include it here so the build outputs an executable named `code`.
 
-#include "code"
+#include "src.hpp"
 
 int main() {
     // Minimal self-check (no external libraries): construct and basic operations
@@ -16,4 +16,3 @@ int main() {
     std::cout << ca.At(0,0) << " " << ca.At(1,1) << "\n";
     return 0;
 }
-
